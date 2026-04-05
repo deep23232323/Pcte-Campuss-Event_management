@@ -56,8 +56,8 @@ const Directory: React.FC = () => {
 
   const tabs = [
     { id: 'teachers', label: 'Faculty', icon: GraduationCap },
-    { id: 'staff', label: 'Staff', icon: Users },
-    { id: 'rooms', label: 'Rooms', icon: Building }
+    { id: 'staff', label: 'Staff', icon: Users }
+    
   ];
 
   const TeacherCard = ({ teacher }: { teacher: any }) => (
